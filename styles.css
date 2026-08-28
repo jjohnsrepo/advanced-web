@@ -1,0 +1,110 @@
+    html{
+    margin:0;
+    padding:0;
+    background-color: antiquewhite;
+    font-family: Courier;
+    }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    gap:50px;
+    margin:0;
+
+}
+
+a {
+  color: orange;
+  text-decoration: inherit;
+}
+
+a:hover{
+    cursor: pointer;
+    color:green;
+    text-decoration: underline;
+}
+
+
+.title{
+    font-size:30px
+}
+
+nav{
+display: flex;
+justify-content: center;
+gap:115px;
+font-size: 35px;
+background-color: rgb(27, 157, 233);
+width: 100%;
+height:75px;
+align-items: center;
+}
+
+nav a{
+    color:black
+}
+
+.hero{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width:100%;
+    justify-content: center;
+}
+
+.hero img{
+    max-height: 400px;
+    width:600px;
+    opacity: 60%;
+}
+
+main{
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.satisfy-requirements{
+    margin-left:10%;
+    margin-right:10%
+}
+
+.table-holder{
+    padding-bottom: 15px;
+    border-bottom:solid 3px black;
+}
+
+table,th,td {
+    border: 1px solid crimson;
+  }
+
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.container img {
+    width: 100%;
+}
+
+video{
+    width:400px;
+    height:400px;
+}
+
+footer{
+    height:30px;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:25px;
+}
